@@ -1,7 +1,7 @@
 version: '3.2'
 services:
   samba:
-    image: samba4ad
+    image:  thepacho/samba4ad
     privileged: true
     hostname: ad.example.local
     container_name: samba4
